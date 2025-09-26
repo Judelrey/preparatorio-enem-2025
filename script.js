@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (buyButton) {
         buyButton.addEventListener('click', function() {
             // Substitua esta URL pelo seu link da Kiwify
-            const kiwifyLink = "https://suaplataforma.kiwify.com.br/seuproduto";
+            const kiwifyLink = "https://pay.kiwify.com.br/xOsFm6U";
             window.open(kiwifyLink, '_blank');
         });
     }
@@ -104,4 +104,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Disparar animação no carregamento e no scroll
     window.addEventListener('load', animateOnScroll);
     window.addEventListener('scroll', animateOnScroll);
+
 });
